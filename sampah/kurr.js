@@ -9,6 +9,7 @@ TQ TO:
 @OJAN
 @ADI
 @ZeeoneOfc
+@AbengRiandana
 * Note:
 * Kalau Mau Recode/Reupload Kasih Credit
 **/
@@ -151,7 +152,7 @@ battery: "" || "Not detected",
 isCharge: "" || false
 }
 offline = false
-publik = true
+publik = false
 bugc = true
 waktuafk = 'Nothing'
 alasanafk = 'Nothing'
@@ -1438,7 +1439,7 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST ALL MENU',
- footerText: '*_© KurrXdゑ v.3.0_*',
+ footerText: '*_© AbengRiandanaゑ v.3.0_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -1562,7 +1563,7 @@ _ℒ⃝🌊 ${prefix}gamemenu_
 
 _ℒ⃝🌊 ${prefix}othermenu_
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE BOT'},type:1},{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE BOT'},type:1},{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1570,7 +1571,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1664,7 +1665,7 @@ _ℒ⃝🌊 ${prefix}bukatime [ _detik/menit/jam_ ]_
 _ℒ⃝🌊 ${prefix}tutuptime [ _detik/menit/jam_ ]_
 _ℒ⃝🌊 ${prefix}nano [ _nama file_ ]_             
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1672,7 +1673,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1720,7 +1721,7 @@ case 'blmmenu':
 _ℒ⃝🌊 ${prefix}piltek_
 _ℒ⃝🌊 ${prefix}gift_               
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1728,7 +1729,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1805,7 +1806,7 @@ _ℒ⃝🌊 ${prefix}sticktag [ _nama sticker_ ]_
 _ℒ⃝🌊 ${prefix}totag [ _reply media_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1813,7 +1814,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1888,7 +1889,7 @@ _ℒ⃝🌊 ${prefix}puki_
 _ℒ⃝🌊 ${prefix}pantex_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1896,7 +1897,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2058,7 +2059,7 @@ _ℒ⃝🌊 ${prefix}thunder (teks)_
 _ℒ⃝🌊 ${prefix}harry (teks)_
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2066,7 +2067,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2121,7 +2122,7 @@ _ℒ⃝🌊 ${prefix}addimage [ _nama_ ]_
 _ℒ⃝🌊 ${prefix}delimage [ _nama_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2129,7 +2130,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2194,7 +2195,7 @@ _ℒ⃝🌊 ${prefix}detikvn [ _reply audio caption angka_ ]_
 _ℒ⃝🌊 ${prefix}detikvideo [ _reply video caption angka_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2202,7 +2203,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2252,7 +2253,7 @@ _ℒ⃝🌊 ${prefix}milf_
 _ℒ⃝🌊 ${prefix}cosplay_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2260,7 +2261,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2377,7 +2378,7 @@ _ℒ⃝🌊 ${prefix}kemonomimi_
 _ℒ⃝🌊 ${prefix}nsfw_avatar_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2385,7 +2386,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2433,7 +2434,7 @@ _ℒ⃝🌊 ${prefix}tebakgambar_
 _ℒ⃝🌊 ${prefix}caklontong_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2441,7 +2442,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2513,7 +2514,7 @@ _ℒ⃝🌊 ${prefix}sharelock [ _teks1|teks2_ ]_
         
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2521,7 +2522,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2633,7 +2634,7 @@ LANGGAR BANNED
 *ゞRULESゞ* /ENGLISH
 _Strictly prohibited_ 
 _SPAM BOT_
-CALL BOT 
+_CALL BOT_ 
 _VC BOT_
 If you violate, you will be blocked
 
@@ -2792,7 +2793,7 @@ break
         stod = `${sender}`
  listMsg = {
  buttonText: 'LIST STORE',
- footerText: '*_© KurrXdゑ v.3.0_*',
+ footerText: '*_© AbengRiandanaゑ v.3.0_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan Mau Beli Apa Kak...`,
  sections: [
                      {
@@ -2995,7 +2996,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -3366,13 +3367,12 @@ break
 					ranp = getRandom('.gif')
 					rano = getRandom('.webp')
 					anu6 = `https://some-random-api.ml/canvas/green?avatar=${teks}`
-					exec(`wget ${anu6} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, (err) => {
-					fs.unlinkSync(ranp)
+					exec(`wget ${anu6} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, 	fs.unlinkSync(ranp)
 					if (err) return reply(mess.error.stick)
 					kurr.sendMessage(from, fs.readFileSync(rano), sticker, {quoted: mek})
-					console.log(color(time, 'magenta'), color('Succes send sticker...'))
+					console.log(color(time 'magenta'), color('Succes send sticker...'))
 					fs.unlinkSync(rano)
-					
+				
 					})
 					} else {
 					reply('Gunakan foto!')
