@@ -1190,19 +1190,19 @@ cpref = `Hayo Ngomongin KurrTod Ya Gw Bilangin Ah Aowkowk`
 reply(cpref)
 }
 if(budy.includes('Assalamualaikum')){
-cpref = `Hay Saya KurrXd Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Pangeran BotZ Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('assalamualaikum')){
-cpref = `Hay Saya KurrXd Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Pangeran BotZ Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('Hai')){
-cpref = `Hay Saya KurrXd Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Pangeran BotZ Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('hai')){
-cpref = `Hay Saya KurrXd Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Pangeran BotZ Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
            if (budy.startsWith('>')){
@@ -1979,7 +1979,7 @@ _ℒ⃝🌊 ${prefix}otaku [ _search_ ]_
 _ℒ⃝🌊 ${prefix}komiku [ _search_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1987,7 +1987,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2613,8 +2613,8 @@ case 'info':
         ini_txt = `*${get_result.character} pernah berkata*\n\n`
        ini_txt += `~${get_result.quote}`
        
-       menu = `╭─❒ 「 KurrXd BOTZ Info 」                           
-*📑NAMA BOT: KurrXd BOTZ*
+       menu = `╭─❒ 「 Pangeran BOTZ Info 」                           
+*📑NAMA BOT: Pangeran BOTZ*
 *📑VERSI BOT: 3.0*
 *📑LIB : BAILEYS*
 *📑TYPESCRIPT: NODE.JS*
@@ -2640,8 +2640,9 @@ If you violate, you will be blocked
 
 GITHUB OWNER:https://github.com/KurrXd
 YOUTUBE OWNER:https://youtube.com/c/KurrXd
+INSTAGRAM OWNER:https://www.instagram.com/abengrndna_
 `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1},{buttonId:`sewabot`,buttonText:{displayText:'SEWABOT'},type:1},{buttonId:`runtime`,buttonText:{displayText:'RUNTIME BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1},{buttonId:`sewabot`,buttonText:{displayText:'SEWABOT'},type:1},{buttonId:`runtime`,buttonText:{displayText:'RUNTIME BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2649,7 +2650,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2850,7 +2851,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
        ini_txt += `~${get_result.quote}`
        
        menu = ` Hay Selamat Datang @${sender.split("@")[0]}
-*KurrXd Store*
+*Pangeran Store*
  <=[][VPS][]=>
  
 _Spesifikasi RDP_
@@ -2914,7 +2915,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
        ini_txt += `~${get_result.quote}`
        
        menu = ` Hay Selamat Datang @${sender.split("@")[0]}
-*KurrXd Store*
+*Pangeran Store*
  <=[][RDP][]=>
  
 _Spesifikasi RDP_
@@ -2933,7 +2934,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2977,7 +2978,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
        ini_txt += `~${get_result.quote}`
        
        menu = ` Hay Selamat Datang @${sender.split("@")[0]}
-*KurrXd Store*
+*Pangeran Store*
  <=[][RDP][]=>
  
 _Spesifikasi RDP_
@@ -3040,7 +3041,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
        ini_txt += `~${get_result.quote}`
        
        menu = ` Hay Selamat Datang @${sender.split("@")[0]}
-*KurrXd Store*
+*Pangeran Store*
  <=[][RDP][]=>
  
 _Spesifikasi RDP_
@@ -3059,7 +3060,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -3103,7 +3104,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
        ini_txt += `~${get_result.quote}`
        
        menu = ` Hay Selamat Datang @${sender.split("@")[0]}
-*KurrXd Store*
+*Pangeran Store*
  <=[][RDP][]=>
  
 _Spesifikasi RDP_
@@ -3122,7 +3123,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -3166,7 +3167,7 @@ const serialUser = createSerial(18)
 └❏
 
 JANGAN LUPA JOIN GC : https://chat.whatsapp.com/Ijb2tF3DLwTK7augBmJfbu
-*「 KurrXdゑ v.3.0 」*`
+*「 AbengRiandanaゑ v.3.0 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
@@ -4073,10 +4074,10 @@ break
 case 'pay':
 case 'payment':
 dona = fs.readFileSync('./media/donasi.jpg')
-doni =`*╭─❒ 「 KurrXd PAYMENT 」 ──────*
+doni =`*╭─❒ 「 Pangeran PAYMENT 」 ──────*
 *│*
 *│*⬡ *PEMBAYARAN BISA VIA*
-*│*⬡ *DANA   : 081220670449*
+*│*⬡ *DANA   : 087832147584*
 *│*⬡ *GOPAY/OVO/SHOPEEPAY    : SCAN DI ATAS AJA*
 *└───────────────────*
 Scan QR di atas bila belum premium`
@@ -5103,7 +5104,7 @@ case 'matrix':
                 break
 					case 'restart':
 if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
-reply(`_Restarting KurrXdゑ v.3.0_`)
+reply(`_Restarting AbengRiandanaゑ v.3.0_`)
 exec(`cd &&  node index`)
 sleep(4000)
 reply('Sukses')
@@ -5148,7 +5149,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 punten = [{buttonId: 'antivirtex off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antivirtex on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©AbengRiandana_*',
     buttons: punten,
     headerType: 1
 }
@@ -5177,7 +5178,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antiwame off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antiwame on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©AbengRiandana_*',
     buttons: punten,
     headerType: 1
 }
@@ -5206,7 +5207,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©AbengRiandana_*',
     buttons: punten,
     headerType: 1
 }
@@ -5434,7 +5435,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*_KurrXd BOTZ_*',
+    footerText: '*_Pangeran BOTZ_*',
     buttons: buttons,
     headerType: 1
 }
@@ -6440,7 +6441,7 @@ break
        
        menu = ` BOT TELAH AKTIF SELAMA:${waktu(runtime)}
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© AbengRiandanaゑ v.3.0_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -6448,7 +6449,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` AbengRiandanaゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -6539,7 +6540,7 @@ break
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©KurrXdゑ v.3.0_*',
+    footerText: '*_©AbengRiandanaゑ v.3.0_*',
     buttons: punten,
     headerType: 1
 }
@@ -6763,6 +6764,7 @@ Giliran = @${tty.player1.split('@')[0]}`
 KurrXd
 Dcode Denpa
 Yuzzu Kamiyaka
+Pangeran BotZ 
 **/
 
 ///----------( Thx Dah Pake Scriptnya )----------\\\
