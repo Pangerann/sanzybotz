@@ -400,7 +400,7 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
              kurr.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = kurr.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `KurrXdゑ v.3.0`, "footerText": "*_© KurrXdゑ v.3.0_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = kurr.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `AbengRiandanaゑ v.3.0`, "footerText": "*_© AbengRiandanaゑ v.3.0_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             kurr.relayWAMessage(grup)
         }
 		idttt = []
@@ -524,7 +524,7 @@ const ftrol = {
                             status: 1,
                             surface : 1,
                             message: `BOT AKTIF SELAMA : ${waktu(runtime)}`, //Kasih namalu
-                            orderTitle: `KurrXdゑ v.3.0`,
+                            orderTitle: `AbengRiandanaゑ v.3.0`,
                             thumbnail: ofrply3, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -1061,7 +1061,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 	        kurr.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			kurr.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: `${jmn} - ${week}  - ${calender}`,body:"KurrXdゑ v.3.0",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/6281220670449`}}})
+			kurr.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: `${jmn} - ${week}  - ${calender}`,body:"AbengRiandanaゑ v.3.0",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/6287832147584`}}})
 		}
 		function monospace(string) {
 return '```' + string + '```'
@@ -1181,12 +1181,12 @@ reply(cpref)
 cpref = ` *Prefix Saat ini: ( ${prefix} )*`
 reply(cpref)
 }
-if(budy.includes('KurrXd')){
-cpref = `Hayo Ngomongin KurrXd Ya Gw Bilangin Ah Aowkowk`
+if(budy.includes('Pangeran')){
+cpref = `Hayo Ngomongin Pangeran BotZ Ya Gw Bilangin Ah Aowkowk`
 reply(cpref)
 }
-if(budy.includes('KurrTod')){
-cpref = `Hayo Ngomongin KurrTod Ya Gw Bilangin Ah Aowkowk`
+if(budy.includes('pangeran')){
+cpref = `Hayo Ngomongin Pangeran BotZ Ya Gw Bilangin Ah Aowkowk`
 reply(cpref)
 }
 if(budy.includes('Assalamualaikum')){
@@ -1537,7 +1537,7 @@ break
        ini_txt += `~${get_result.quote}`
        
        menu = ` ${tampilUcapan} @${sender.split("@")[0]}
-*❒ 「 KurrXd BOTZ MENU 」 ❒*
+*❒ 「 Pangeran BOTZ MENU 」 ❒*
 
 _ℒ⃝🌊 ${prefix}ownermenu_
 
@@ -1602,7 +1602,7 @@ case 'ownermenu':
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				runtime = process.uptime()
 				
                 nomor = 1
@@ -1756,7 +1756,7 @@ sendEphemeral: false,
 }
 break
 case 'groupmenu':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -1828,7 +1828,7 @@ footerText: `${menu}`,
 buttons: gbutsan,
 headerType: 4
 }
-kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'Hai',
 "forwardingScore": 1000000000,
 isForwarded: false,
 sendEphemeral: false,
@@ -1926,7 +1926,7 @@ break
 
 
 case 'downloadmenu':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -2014,7 +2014,7 @@ sendEphemeral: false,
 }
 break
 case 'makermenu':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -2094,7 +2094,7 @@ sendEphemeral: false,
 }
 break
 case 'storagemenu':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -2157,7 +2157,7 @@ sendEphemeral: false,
 }
 break
 case 'toolsmenu':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -2230,7 +2230,7 @@ sendEphemeral: false,
 }
 break
 case 'wibumenu':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -2288,7 +2288,7 @@ sendEphemeral: false,
 }
 break
 case 'harammenu':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -2413,7 +2413,7 @@ sendEphemeral: false,
 }
 break
 case 'gamemenu':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -2469,7 +2469,7 @@ sendEphemeral: false,
 }
 break
 case 'othermenu':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -2575,29 +2575,29 @@ break
 
 
 case 'meme':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/meme?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗AbengRiandana', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
                     break
 case 'darkjoke':
 case 'memeindo':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗AbengRiandana', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
                     break
 
 case 'info':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
@@ -2709,9 +2709,9 @@ case 'bego':
         mentions(teks, membr, true)
         break
 case 'catlog': 
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 
-                nama = ' ゑwelcome to kurrxd storeゑ '
+                nama = ' ゑwelcome to PangeranBotZ storeゑ '
        ownerJid = "6281220670449@s.whatsapp.net"
                 nomor = 1
                 stod = `${sender}`
@@ -2834,11 +2834,11 @@ break
 kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [stod]},quoted:ftrol})
 break
 case 'vps':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				runtime = process.uptime()
 				
                 nomor = 1
@@ -2898,11 +2898,11 @@ sendEphemeral: false,
 }
 break        
 case 'rdp2gb':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				runtime = process.uptime()
 				
                 nomor = 1
@@ -2961,11 +2961,11 @@ sendEphemeral: false,
 }
 break        
 case 'rdp4gb':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				runtime = process.uptime()
 				
                 nomor = 1
@@ -3024,11 +3024,11 @@ sendEphemeral: false,
 }
 break  
 case 'rdp8gb':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				runtime = process.uptime()
 				
                 nomor = 1
@@ -3087,11 +3087,11 @@ sendEphemeral: false,
 }
 break 
  case 'rdp16gb':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 const timestampi = speed();
 					const latensyi = speed() - timestampi
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				runtime = process.uptime()
 				
                 nomor = 1
@@ -3153,7 +3153,7 @@ break
 
 case 'verify':
 case 'daftar':
-if (isRegistered) return reply(`Ok Om`)
+if (isRegistered) return reply(`Ok Sayang`)
 const serialUser = createSerial(18)
 	        veri = sender
 	        _registered.push(sender)
@@ -3176,7 +3176,7 @@ mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© kurr_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_©AbengRiandana_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -3187,7 +3187,7 @@ kurr.sendMessage(from, sendBtnVeryy, MessageType.buttonsMessage, {quoted:ftrol, 
 // BIAR GAK LUPA 
 //LUPA
 case 'nulis':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!c) return reply('Textnya mana gan?')
 reply(`OTW TULIS BOSS`)
 kon = (`https://api.lolhuman.xyz/api/nulis?apikey=${lolkey}&text=${c}`)
@@ -3200,7 +3200,7 @@ break
 
 //🐀💰 MALING
                    case 'trigger':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3223,7 +3223,7 @@ break
 					}
 					break
 					case 'sampah':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 	                 if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 	                 ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
@@ -3236,7 +3236,7 @@ break
                    }
               break       
 		case 'gay':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3260,7 +3260,7 @@ break
 					}
 					break
 		case 'glass':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3284,7 +3284,7 @@ break
 					}
 					break
 		case 'passed':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3308,7 +3308,7 @@ break
 					}
 					break
 		case 'jail':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3332,7 +3332,7 @@ break
 					}
 					break
 		case 'comrade':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3356,7 +3356,7 @@ break
 					}
 					break
 		case 'hijau':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3380,7 +3380,7 @@ break
 					}
 					break 
 		case 'biru':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3405,7 +3405,7 @@ break
 					}
 					 break 
 		case 'greyscale':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3430,7 +3430,7 @@ break
 					}
 				 break 
 		case 'invert':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3455,7 +3455,7 @@ break
 					}
 				 break 
 		case 'invert_greyscale':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3480,7 +3480,7 @@ break
 					}
 				 break 
 		case 'red':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3505,7 +3505,7 @@ break
 					}
 				 break
          case 'blurple':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3530,7 +3530,7 @@ break
 					}
 				 break 
 		case 'blurple2':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3555,7 +3555,7 @@ break
 					}
 				 break 
 		case 'wasted':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3579,7 +3579,7 @@ break
 					break 
 		case 'pelangi':
 		case 'rainbow':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3602,7 +3602,7 @@ break
 					}
 					break 
 		case 'sepia':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3626,7 +3626,7 @@ break
 					break 
 					//Fun not faedah
                case 'brainly':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					if (args.length < 1) return reply('Pertanyaan apa')
 		          	brien = args.join(' ')
 					brainly(`${brien}`).then(res => {
@@ -3638,7 +3638,7 @@ break
 		            })              
 					break
 case 'igstalk':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 try{
 if (!c) return reply('Usernamenya?')
 ig.fetchUser(`${args.join(' ')}`).then(Y => {
@@ -3659,35 +3659,35 @@ kurr.sendMessage(from, nih_buff, image, { quoted: mek, caption: tt });
 break;      
 break    
                 case 'bisakah':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					bisakah = body.slice(1)
 					const bisa =['Bisa','Tidak Bisa','Coba Ulangi','Ngimpi kah?','yakin bisa?']
 					const keh = bisa[Math.floor(Math.random() * bisa.length)]
 					kurr.sendMessage(from, 'Pertanyaan : *'+bisakah+'*\n\nJawaban : '+ keh, text, { quoted: mek })
 					break
 				case 'kapankah':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					kapankah = body.slice(1)
 					const kapan =['Besok','Lusa','Tadi','4 Hari Lagi','5 Hari Lagi','6 Hari Lagi','1 Minggu Lagi','2 Minggu Lagi','3 Minggu Lagi','1 Bulan Lagi','2 Bulan Lagi','3 Bulan Lagi','4 Bulan Lagi','5 Bulan Lagi','6 Bulan Lagi','1 Tahun Lagi','2 Tahun Lagi','3 Tahun Lagi','4 Tahun Lagi','5 Tahun Lagi','6 Tahun Lagi','1 Abad lagi','3 Hari Lagi','Tidak Akan Pernah']
 					const koh = kapan[Math.floor(Math.random() * kapan.length)]
 					kurr.sendMessage(from, 'Pertanyaan : *'+kapankah+'*\n\nJawaban : '+ koh, text, { quoted: mek })
 					break
          			  case 'apakah':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					apakah = body.slice(1)
 					const apa =['Iya','Tidak','Bisa Jadi','Coba Ulangi','Tanyakan Ayam']
 					const kah = apa[Math.floor(Math.random() * apa.length)]
 					kurr.sendMessage(from, 'Pertanyaan : *'+apakah+'*\n\nJawaban : '+ kah, text, { quoted: mek })
 					break
 				case 'rate':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					rate = body.slice(1)
 					const ra =['4','9','17','28','34','48','59','62','74','83','97','100','29','94','75','82','41','39']
 					const te = ra[Math.floor(Math.random() * ra.length)]
 					kurr.sendMessage(from, 'Pertanyaan : *'+rate+'*\n\nJawaban : '+ te+'%', text, { quoted: mek })
 					break
 		    case 'tiktokaudio':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 		 		if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) return reply(mess.error.api)
  		if (!c) return reply('Linknya?')
  		reply(`Bentar Nyett....`)
@@ -3703,7 +3703,7 @@ break
 		})
 		break 
 	case 'igstory': 
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             if(!c) return reply('Usernamenya?')
             hx.igstory(`${c}`)
             .then(async result => {
@@ -3719,7 +3719,7 @@ break
             });
             break
     case 'playstore':
-    if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+    if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             if(!c) return reply('lu nyari apa?')
             let play = await hx.playstore(`${c}`)
             let store = '❉─────────────────────❉\n'
@@ -3737,7 +3737,7 @@ case 'linkwa':
 case 'grupwa':
 case 'groupwa':
 case 'gcwa':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             if(!c) return reply('cari group apa?')
             hx.linkwa(`${c}`)
             .then(result => {
@@ -3749,7 +3749,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
             });
             break 
     case 'otaku':
-    if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+    if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             if(!c) return reply('judul animenya?')
             let anime = await hx.otakudesu(`${c}`)
             rem = `*Judul* : ${anime.judul}
@@ -3768,7 +3768,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             kurr.sendMessage(from,ram,image,{quoted:mek,caption:rem})
             break
     case 'komiku':
-    if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+    if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             if(!c) return reply(`judulnya?\n${prefix}komiku mao gakuin`)
             let komik = await hx.komiku(`${c}`)
             result = `*Title* : ${komik.title}\n
@@ -3780,7 +3780,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             sendMediaURL(from, komik.image,result)
             break  
 		    case 'twmp4': case 'twitter':
-		if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+		if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (args.length < 1) return reply('Link?')
 lin = args[0]
 reply(`Bentar Nyett....`)
@@ -3792,7 +3792,7 @@ sendMediaURL(from, Anu, 'Done!')
 })
 break
 case 'twmp3':
-		if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+		if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (args.length < 1) return reply('Link?')
 lin = args[0]
 reply(`Bentar Nyett....`)
@@ -3804,7 +3804,7 @@ kurr.sendMessage(from, khs, audio, {mimetype:'audio/mp4', filename:'audio.mp3', 
 })
 break
     case 'chara':
-		if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+		if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             if(!c) return reply(`gambar apa?\n${prefix}chara nino`)
             let im = await hx.chara(`${c}`)
             let acak = im[Math.floor(Math.random() * im.length)]
@@ -3813,26 +3813,26 @@ break
             break
 //Navi
 					          case 'unpin':
-                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                 kurr.modifyChat(from, ChatModification.unpin)
                 reply('*succes unpin this chat*')
                 console.log('unpin chat = ' + from)
                 break
             case 'pin':
-                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                 kurr.modifyChat(from, ChatModification.pin)
                 reply('*succes pin this chat*')
                 console.log('pinned chat = ' + from)
                 break
              case 'archive':
-                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                 reply('*okey wait..*')
                 console.log('succes archive chat = ' + from)
                 await sleep(3000)
                 kurr.modifyChat(from, ChatModification.archive)
                 break
             case 'unreadall':
-                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                 var chats = await kurr.chats.all()
                 chats.map( async ({ jid }) => {
                 await kurr.chatRead(jid, 'unread')
@@ -3842,7 +3842,7 @@ break
 		    console.log(chats.length)
 	        break
             case 'readall':
-                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                 var chats = await kurr.chats.all()
                 chats.map( async ({ jid }) => {
                 await kurr.chatRead(jid)
@@ -3852,7 +3852,7 @@ break
 		console.log(chats.length)
 		break
             case 'unarchiveall':
-                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                 reply('*succes unarchive all chat*')
                 console.log('succes unarchive chat = ' + from)
                 anu = await kurr.chats.all()
@@ -3861,9 +3861,9 @@ break
                 }
                 break
 case 'tutuptime':
-		if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+		if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!isGroup) return reply(mess.only.group)
-if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
 if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 if (args[1]=="detik") {var timer = args[0]+"000"
 } else if (args[1]=="menit") {var timer = args[0]+"0000"
@@ -3875,9 +3875,9 @@ kurr.groupSettingChange (from, GroupSettingChange.messageSend, true);
 }, timer)
 break
 case 'bukatime':
-		if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+		if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!isGroup) return reply(mess.only.group)
-if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
 if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 if (args[1]=="detik") {var timer = args[0]+"000"
 } else if (args[1]=="menit") {var timer = args[0]+"0000"
@@ -3890,7 +3890,7 @@ kurr.groupSettingChange (from, GroupSettingChange.messageSend, false);
 break
 case 'leavetime':
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if (args[1]=="detik") {var timer = args[0]+"000"
 } else if (args[1]=="menit") {var timer = args[0]+"0000"
 } else if (args[1]=="jam") {var timer = args[0]+"00000"
@@ -3899,13 +3899,13 @@ setTimeout( () => {
 kurr.groupLeave(from);
 }, timer)
 case 'nano':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if (!c) return reply('Nama file nya apaa ?')
 anu = fs.readFileSync(`${c}`)
 reply(String(anu))
 break
 case 'setmenu':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if(args[0] == 'ori'){
 menusimpel = true
 reply('Sucsess')
@@ -3917,7 +3917,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©AbengRiandana_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3925,7 +3925,7 @@ await kurr.sendMessage(from, skuygelud, MessageType.buttonsMessage, {quoted: ftr
 }
 break
 case 'setallmenu':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if(args[0] == 'ori'){
 menuall = true
 reply('Sucsess')
@@ -3965,18 +3965,18 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = kurr.contacts[i] != undefined ? kurr.contacts[i].vname || kurr.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Developer KurrXdゑ v.3.0`,
+"displayName": `Developer AbengRiandanaゑ v.3.0`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 kurr.sendMessage(from, {
-"displayName": `Developer KurrXdゑ v.3.0`,
+"displayName": `Developer AbengRiandanaゑ v.3.0`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
 case 'addcmd': 
 case 'setcmd':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if (isQuotedSticker) {
 if (!c) return reply(`Penggunaan : ${command} cmdnya dan tag stickernya`)
 var kodenya = mek.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.fileSha256.toString('base64')
@@ -3987,7 +3987,7 @@ reply('tag stickenya')
 }
 break
 case 'delcmd':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if (!isQuotedSticker) return reply(`Penggunaan : ${command} tagsticker`)
 var kodenya = mek.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.fileSha256.toString('base64')
 scommand.splice(getCommandPosition(kodenya), 1)
@@ -3995,7 +3995,7 @@ fs.writeFileSync('./database/scommand.json', JSON.stringify(scommand))
 reply("Done Bwang")
 break
 case 'listcmd':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 let teksnyee = `\`\`\`「 LIST CMD STIC 」\`\`\``
 let cemde = [];
 for (let i of scommand) {
@@ -4084,12 +4084,12 @@ Scan QR di atas bila belum premium`
 kurr.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
 break
        case 'debug':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 			 res = await kurr.prepareMessageFromContent(from,{
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-							"hydratedFooterText": `KurrXdゑ v.3.0`,
+							"hydratedFooterText": `AbengRiandanaゑ v.3.0`,
 							"hydratedButtons": [
 								{
 									"quickreplyButton": {
@@ -4119,7 +4119,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 kurr.relayWAMessage(res)
 break
 case 'debug2':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
    res = await kurr.prepareMessageFromContent(from,{
 "templateMessage": {
   "hydratedFourRowTemplate": {
@@ -4137,11 +4137,11 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `KurrXdゑ v.3.0`,
+    "hydratedFooterText": `AbengRiandanaゑ v.3.0`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script KurrXdゑ v.3.0`,
+          "displayText": `Script AbengRiandanaゑ v.3.0`,
           "url": "https://github.com/KurrXd"
         },
         "index": 0
@@ -4155,7 +4155,7 @@ break
 case 'ig':
 case 'igdl':
 case 'instagram':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!c) return reply('Linknya?')
 var { igDownloader } = require('./lib/igdown')
    res = await igDownloader(`${c}`).catch(e => {
@@ -4259,11 +4259,11 @@ case 'bj':
                 case 'pussy_jpg':
                 case 'kemonomimi':
                 case 'nsfw_avatar':
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
                buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=${lolkey}`)
                 buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗AbengRiandana', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4274,13 +4274,13 @@ case 'loli':
        case 'milf':
        case 'cosplay':
        case 'wallml':
-       if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+       if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
               let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
               let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = ( await kurr.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗AbengRiandana', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4302,7 +4302,7 @@ case 'loli':
                 case 'royal':
                 case 'paper':
                 case 'fur':
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
                     if (args.length == 0) return reply(`Example: ${prefix + command} Kurr Xd`)
                     txt1 = args[0]
                     getBuffer(`https://kurrxd-api.herokuapp.com/api/oxy/${command}?text=${txt1}&apikey=${KurrXdKey}`).then((gambar) => {
@@ -4318,7 +4318,7 @@ case 'loli':
                      case 'transformers':
                       case 'thunder':                           
                       case 'harry':
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
                     if (args.length == 0) return reply(`Example: ${prefix + command} Kurr Xd`)
                     txt1 = args[0]
                     getBuffer(`https://kurrxd-api.herokuapp.com/api/textpro/${command}?text=${txt1}&apikey=${KurrXdKey}`).then((gambar) => {
@@ -4326,7 +4326,7 @@ case 'loli':
                     })
                     break
                                      case 'bengekmaker':
-                                     if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                                     if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!c) return reply('Textnya mana gan?')
                     txt1 = arg.split("/")[0]
                     txt2 = arg.split("/")[1]
@@ -4336,7 +4336,7 @@ if (!c) return reply('Textnya mana gan?')
 kurr.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
 break
 case 'terbaikmaker':
-                                     if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                                     if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!c) return reply('Textnya mana gan?')
                     txt1 = arg.split("/")[0]
                     txt2 = arg.split("/")[1]
@@ -4346,7 +4346,7 @@ if (!c) return reply('Textnya mana gan?')
 kurr.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
 break
                     case 'memekertas':
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!c) return reply('Textnya mana gan?')
 reply(`OTW TULIS BOSS`)
 kon = (`https://api.lolhuman.xyz/api/meme1?apikey=${lolkey}&text=${c}`)
@@ -4360,12 +4360,12 @@ case 'neko':
        case 'sagiri':
        case 'megumin':
        case 'wallnime':
-       if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+       if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
               reply(mess.wait)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗AbengRiandana', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4373,12 +4373,12 @@ case 'neko':
               break
        
        case 'hentai':
-       if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+       if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
               reply(mess.wait)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hentai?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗AbengRiandana', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4410,7 +4410,7 @@ case 'neko':
                 case 'flamming':
                 case 'harrypotter':
                 case 'carvedwood':
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
                     if (args.length == 0) return reply(`Example: ${prefix + command} Kurr Xd`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${lolkey}&text=${ini_txt}`).then((gambar) => {
@@ -4420,7 +4420,7 @@ case 'neko':
                 case 'arcade8bit':
                 case 'battlefield4':
                 case 'pubg':
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
                     if (args.length == 0) return reply(`Example: ${prefix + command} Kurr Xd`)
                     txt1 = args[0]
                     txt2 = args[1]
@@ -4460,7 +4460,7 @@ case 'neko':
                 case 'goldplaybutton':
                 case 'silverplaybutton':
                 case 'freefire':
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
                     if (args.length == 0) return reply(`Example: ${prefix + command} kurr xd`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${lolkey}&text=${ini_txt}`).then((gambar) => {
@@ -4503,7 +4503,7 @@ displayText: `⬡ NEXT `,
 gameAdd(sender, glimit)
 break
        case 'caklontong':
-       if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+       if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
               if (isGame(sender, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (caklontong.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
               get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/caklontong?apikey=${lolkey}`)
@@ -4526,7 +4526,7 @@ break
               break
 //
                     case 'tourl':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
     if ((isMedia && !mek.message.videoMessage || isQuotedImage || isQuotedVideo ) && args.length == 0) {
             boij = isQuotedImage || isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
             owgi = await kurr.downloadMediaMessage(boij)
@@ -4537,7 +4537,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
             }
             break
 case 'viewonce':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 res = await kurr.prepareMessageFromContent(from,{
 "viewOnceMessage": {
 "message": {
@@ -4559,11 +4559,11 @@ break
 case 'isbaileys': 
 case 'bail': 
 case 'baileys':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 reply(`${mek.quoted.isBaileys}`)
 break
 case 'getcaption':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 try {
 reply(`${mek.quoted.title}`)
 } catch {
@@ -4571,7 +4571,7 @@ reply(`${mek.quoted.caption}`)
 }
 break
 case 'q': 
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
     if (!m.quoted) return reply('reply pesan!')
     let qse = kurr.serializeM(await m.getQuotedObj())
     if (!qse.quoted) return reply('pesan yang anda reply tidak mengandung reply!')
@@ -4585,12 +4585,12 @@ case 'listgroup':
                 case 'gruplist':
                 case 'groplist':
                 case 'grouplist':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
   const txs = kurr.chats.all().filter(v => v.jid.endsWith('g.us')).map(v =>`- ${kurr.getName(v.jid)}\n${v.jid}\n[${v.read_only ? 'Left' : 'Joined'}]`).join`\n\n`
   reply(txs)
   break
   case 'caripesan':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (args.length < 1) return reply(`Penggunaan ${prefix}caripesan Hi|15`)
 tekse = args.join('')
 if (tekse.includes("|")) { 
@@ -4618,7 +4618,7 @@ reply(`Penggunaan ${prefix}caripesan Hi|15`)
 break
   case 'get':
 case 'fetch':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             if(!c) return reply('Linknya?')
             fetch(`${args[0]}`).then(res => res.text())  
             .then(bu =>{
@@ -4626,7 +4626,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
             })   
             break
             case 'autorespon':
-      if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+      if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
            if (c === 'on'){
               autorespon = false
                     reply(`Berhasil mengaktifkan autorespon`)
@@ -4638,7 +4638,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©AbengRiandana_*',
     buttons: buttons,
     headerType: 1
 }
@@ -4666,13 +4666,13 @@ await kurr.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: ftro
         case 'test':
 				case 'cek':
 				case 'tes':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				runtime = process.uptime()
 				reply(`- SUDAH AKTIF BOS \n${waktu(runtime)}`)
 				break
 				case 'tictactoe':
 case 'ttt':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!isGroup) return reply(mess.only.group)
 if (args.length < 1) return reply('Tag Lawan Anda! ')
 if (isTTT) return reply('Sedang Ada Permainan Di Grub Ini, Harap Tunggu')
@@ -4693,7 +4693,7 @@ Ketik ${prefix}delttc , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {context
 break
                 case 'delttt':
                 case 'delttc':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!isGroup) return reply(mess.only.group)
 if (!isTTT) return reply('Tidak Ada Permainan Di Grub Ini')
 naa = ky_ttt.filter(toek => !toek.id.includes(from)) 
@@ -4725,18 +4725,18 @@ const buMess = {
 await kurr.sendMessage(from, buMess, MessageType.buttonsMessage, {quoted: ftrol})
 break
 				case 'public':
-				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 			publik = true
 				reply('Sukses mengubah mode self ke public')
 			break
 			case 'self':
-			if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+			if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				publik = false
 				reply('Sukses mengubah mode public ke self')
 			break
 		case 'gimage':
 case 'googleimage':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (args.length < 1) return reply('Apa Yang Mau Dicari?')
 reply(`Bentar Nyett....`)
 teks = args.join(' ')
@@ -4752,7 +4752,7 @@ sendFileFromUrl(random, image, {quoted: mek, caption: `*Hasil Pencarian Dari :* 
 break
 
 				case 'herolist':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 await herolist().then((ress) => {
 let listt = `*List hero untuk feature ${prefix}herodetail*\n\n`
 for (var i = 0; i < ress.hero.length; i++) {
@@ -4762,7 +4762,7 @@ reply(listt)
 })
 break
 case 'herodetail':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 res = await herodetails(body.slice(12))
 her = `*Hero Details ${body.slice(12)}*
 
@@ -4794,7 +4794,7 @@ break
 				case 'google':
 case 'googlesearch':
 case 'ggs':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (args.length < 1) return reply('Yang mau di cari apaan?')
 teks = args.join(' ')
 reply(`Bentar Nyett....`)
@@ -4856,14 +4856,14 @@ down = await getBuffer(lah.result.link)
 kurr.sendMessage(from, down, document, { mimetype: 'application/zip', filename: lah.result.filename, quoted: mek, contextInfo: {mentionedJid: [sender]}})
 break
 				case 'kalkulator':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				 var mtk = body.slice(12)
 				 teks = `${mtk} = ${Math_js.evaluate(mtk)}`
 				 reply(teks)
 				 break
 				case 'translate':
 				case 'ts':
-if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					try{
 					if ( args.length === 1 ){
 						tekss = mek.message.extendedTextMessage.contextInfo.quotedMessage.conversation
@@ -4887,7 +4887,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 				  break
 
 				case 'pantun':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				anu = await fetchJson(`https://api.lolhuman.xyz/api/random/pantun?apikey=${lolkey}`, {method: 'get'})
 				kata = anu.result
 				reply(kata)
@@ -4896,13 +4896,13 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 					
 					
 				case 'dadu':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 			random = Math.floor(Math.random() * 6) + 1
 		damdu = fs.readFileSync(`./sticker/${random}.webp`)
 			kurr.sendMessage(from, damdu, sticker, {quoted: mek})
 			break
 				case 'robot':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 encmedial = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 medial = await kurr.downloadAndSaveMediaMessage(encmedial)
 ran = getRandom('.mp3')
@@ -4915,7 +4915,7 @@ fs.unlinkSync(ran)
 })
 break
 case 'gemuk':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					encmediaz = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					mediaz = await kurr.downloadAndSaveMediaMessage(encmediaz)
 					ran = getRandom('.mp3')
@@ -4928,7 +4928,7 @@ case 'gemuk':
 					})
 					break
 case 'balik':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 	encmediau = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 	mediau = await kurr.downloadAndSaveMediaMessage(encmediau)
 	ran = getRandom('.mp3')
@@ -4941,7 +4941,7 @@ fs.unlinkSync(ran)
 	})
 break
 case 'bass':                 
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					encmediao = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					mediao = await kurr.downloadAndSaveMediaMessage(encmediao)
 					ran = getRandom('.mp3')
@@ -4954,7 +4954,7 @@ case 'bass':
 					})
 				break
 case 'sider':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!isGroup) return reply(mess.only.group)
 infom = await kurr.messageInfo(from, mek.message.extendedTextMessage.contextInfo.stanzaId)
 tagg = []
@@ -4967,7 +4967,7 @@ tagg.push(i.jid)
 mentions(teks, tagg, true)
 break
 case 'tospam':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 if (!isQuotedSticker && !isQuotedAudio && !isQuotedImage && budy.length > 10) {
 teks = body.slice(8)
 oi1 = teks.split('|')[0]
@@ -5016,57 +5016,57 @@ if (Number(oi2) >= 50) return reply('Kebanyakan!')
 }
 	  break
 	case 'halloween':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 	if (!arg) return reply(from, `Penggunaan ${prefix}halloween teks`, mek)
 	sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/halloween?text=${arg}&apikey=${HunterApi}`)
    break
    case 'vampire':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
    if (!arg) return reply(from, `Penggunaan ${prefix}vampire teks`, mek)
    sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/vampire?text=${arg}&apikey=${HunterApi}`)
    break
    case 'codetxt':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
    if (!arg) return reply(from, `Penggunaan ${prefix}codetxt teks`, mek)
    sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/maker/carbon?code=${arg}&apikey=${HunterApi}`)
    break
 case 'matrix':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!arg) return reply(from, `Penggunaan ${prefix}matrix teks`, mek)
 				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/matrix?text=${arg}&apikey=${HunterApi}`)
 				break
 				case 'googletxt':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!arg) return reply(from, `Penggunaan ${prefix}googletxt teks`, mek)
 				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/google?text=${arg}&apikey=${HunterApi}`)
 				break
 				case 'spiderman':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!arg) return reply(from, `Penggunaan ${prefix}sipderman teks`, mek)
 				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/spider?text=${arg}&apikey=${HunterApi}`)
 				break
 				case 'express':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!arg) return reply(from, `Penggunaan ${prefix}express teks`, mek)
 				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/express?text=${arg}&apikey=${HunterApi}`)
 				break
 				case 'dance':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!arg) return reply(from, `Penggunaan ${prefix}dance teks`, mek)
 				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/dance?text=${arg}&apikey=${HunterApi}`)
 				break
 				case 'blackbird':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!arg) return reply(from, `Penggunaan ${prefix}blackbird teks`, mek)
 				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/blackbird?text=${arg}&apikey=${HunterApi}`)
 				break
 				case 'text3d':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!arg) return reply(from, `Penggunaan ${prefix}text3d teks`, mek)
 				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/text3d?text=${arg}&apikey=${HunterApi}`)
 				break
 				case 'warrior':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!arg) return reply(from, `Penggunaan ${prefix}warrior teks`, mek)
 				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/warrior?text=${arg}&apikey=${HunterApi}`)
 				break
@@ -5078,7 +5078,7 @@ case 'matrix':
 				
 				case 'readmore':
 			    	case 'more':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 			    	const more = String.fromCharCode(8206)
 			    	const readmore = more.repeat(4001)
 				    if (!c.includes('|')) return  reply(mess.error.api)
@@ -5087,7 +5087,7 @@ case 'matrix':
                     reply( text1 + readmore + text2)
                     break
                     case 'delchat':
-                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                 reply('Sukses menghapus chat' + from)
                 await sleep(4000)
                 kurr.modifyChat(from, ChatModification.delete)
@@ -5095,7 +5095,7 @@ case 'matrix':
             
 			
 					case 'mute':
-			    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+			    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 			    if (!isGroup) return reply(mess.only.group)
                 if (isMuted) return reply(`udah mute`)
                 mute.push(from)
@@ -5103,14 +5103,14 @@ case 'matrix':
                 reply('Bot berhasil dimute di chat ini')
                 break
 					case 'restart':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 reply(`_Restarting AbengRiandanaゑ v.3.0_`)
 exec(`cd &&  node index`)
 sleep(4000)
 reply('Sukses')
 break
 				case 'detikvn':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					mediam = await kurr.downloadAndSaveMediaMessage(encmediam)
 					cokmatane = Number(args[0])
@@ -5119,7 +5119,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 						fs.unlinkSync(mediam)
 				break
 				case 'detikvideo':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				encmedian = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					median = await kurr.downloadAndSaveMediaMessage(encmedian)
 					cokmatane = Number(args[0])
@@ -5128,9 +5128,9 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 						fs.unlinkSync(median)
 				break
 				case "antivirtex":
-        	if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+        	if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 	        if (!isGroup) return reply(mess.only.group)
-			if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+			if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
 			if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 					if (args[0] === 'on') {
 						if (isAntivirtex) return reply('Sudah Aktif Kak')
@@ -5157,9 +5157,9 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 					}
 					break
 				case 'antiwame':
-				if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+				if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 	        if (!isGroup) return reply(mess.only.group)
-			if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+			if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
 			if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 					if (args[0] === 'on') {
 						if (isAntiWame) return reply('Sudah Aktif Kak')
@@ -5186,7 +5186,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 					}
 					break
 				 case 'antilink':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 	        if (!isGroup) return reply(mess.only.group)
 			if (!isGroupAdmins) return reply(`Khusus Admin Om`)
 			if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
@@ -5215,7 +5215,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 					}
 					break
 				case 'tinyurl':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 try {
 link = args[0]
 anu = await axios.get(`https://tinyurl.com/api-create.php?url=${link}`)
@@ -5226,7 +5226,7 @@ reply(`${e}`)
 }
 break
 case 'sharelock':
- if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+ if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 kntl = `${args.join(' ')}`
 nama = kntl.split("|")[0];
 impostor = kntl.split("|")[1];
@@ -5236,7 +5236,7 @@ address: impostor,
 jpegThumbnail: ofrply}, MessageType.liveLocation, {quoted:floc})
 break
 case 'tts':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					  try{
         if (args.length > 1) {
         const gtts = require('./lib/gtts')(args[0])
@@ -5275,9 +5275,9 @@ case 'tts':
 }
 break 
 				case 'demote':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!isGroup) return reply(mess.only.group)
-				if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+				if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
                    if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('reply targetnya!')
 			demote = mek.message.extendedTextMessage.contextInfo.participant
@@ -5285,9 +5285,9 @@ break
 						reply('Sukses demote admin')
 						break
 					case 'promote':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+					if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
                    if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 				  if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('reply targetnya!')
 			promote = mek.message.extendedTextMessage.contextInfo.participant
@@ -5297,7 +5297,7 @@ break
 				case 'linkgrup':
 				case 'linkgroup':
 				case 'linkgc':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!isGroup) return reply(mess.only.group)
                    if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 					linkgc = await kurr.groupInviteCode(from)
@@ -5307,9 +5307,9 @@ break
 					case 'resetlinkgc':
          case 'resetlinkgroup':
          case 'revoke':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
          if (!isGroup) return reply(mess.only.group)
-         if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+         if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
                    if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
           json = ['action', 'inviteReset', from]
          kurr.query({json, expect200: true})
@@ -5327,20 +5327,20 @@ await kurr.sendMessage(from, bMess, MessageType.buttonsMessage, {quoted: ftrol})
 break
 					case 'opengc':
 					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+					if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
                    if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
                    reply(`Sukses membuka grup ${groupName}`)
 						kurr.groupSettingChange(from, GroupSettingChange.messageSend, false)
 						break
 						case 'closegc':
 						if (!isGroup) return reply(mess.only.group)
-						if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+						if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
                    if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 						reply(`Sukses menutup grup ${groupName}`)
 						kurr.groupSettingChange(from, GroupSettingChange.messageSend, true)
 					break
 				case 'spam':
-				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					if (!arg) return reply(`Penggunaan ${prefix}spam teks|jumlah`)
 				argzi = arg.split("|")
 				if (!argzi) return reply(`Penggunaan ${prefix}spam teks|jumlah`)
@@ -5351,7 +5351,7 @@ break
 				}
 				break
 				case 'demoteall':
-		if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+		if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 		if (!isGroup) return reply(mess.only.group)
 		if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
                 members_id = []
@@ -5361,7 +5361,7 @@ break
                 kurr.groupDemoteAdmin(from, members_id)
                 break
                 case 'promoteall':
-		if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+		if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 		if (!isGroup) return reply(mess.only.group)
 		if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
                 members_id = []
@@ -5373,16 +5373,16 @@ break
 				case 'setnamegc':
               if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+					if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
               if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 					kurr.groupUpdateSubject(from, `${body.slice(11)}`)
 					reply(`Sukses mengganti nama grup ke ${body.slice(11)}`)
 					break					
 				case 'setdeskgc':
 				case 'setdescgc':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+					if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
                    if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
 					kurr.groupUpdateDescription(from, `${body.slice(10)}`)
 					reply(`Sukses mengganti deskripsi grup ke ${body.slice(10)}`)
@@ -5391,7 +5391,7 @@ break
 				case 'setpp':
 				kurr.updatePresence(from, Presence.composing)
 				if (!isQuotedImage) return reply('reply imagenya!')
-					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					enmediau = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					mediau = await kurr.downloadAndSaveMediaMessage(enmediau)
 					await kurr.updateProfilePicture(botNumber, mediau)
@@ -5399,13 +5399,13 @@ break
 					break
 				case 'leave':
 				if (!isGroup) return reply(mess.only.group)
-				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				kurr.updatePresence(from, Presence.composing)
 				kurr.groupLeave(from)
 						break
 				case 'bc':
 					kurr.updatePresence(from, Presence.composing)
-					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					if (args.length < 1) return reply('Teksnya?')
 					anu = await kurr.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
@@ -5445,7 +5445,7 @@ await kurr.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: ftrol}
 					}
 					break
 					case 'spamsw':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if (!arg) return reply(`Penggunaan ${prefix}spamsw teks|jumlah`)
 				argzi = arg.split("|")
 				if (!argzi) return reply(`Penggunaan ${prefix}spam teks|jumlah`)
@@ -5456,21 +5456,21 @@ if (!arg) return reply(`Penggunaan ${prefix}spamsw teks|jumlah`)
                     }
                     break	
 				case 'upswteks':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if (args.length < 1) return reply('Teksnya?')
                     teks = body.slice(10)
                     kurr.sendMessage('status@broadcast', teks, MessageType.text)
                     reply(`Sukses upload status:\n${teks}`)
                     break	
                     case 'upswlokasi':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
   if (args.length < 1) return reply('Teksnya?')
                     teks = body.slice(12)
                     kurr.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`KurrXdゑ v.3.0`}, MessageType.location)
                     reply(`Sukses upload lokasi:\n${teks}`)
                     break	
                     case 'upswsticker':
-                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if (!isQuotedSticker) return reply('reply stikernya!')
 if (isMedia && !mek.message.videoMessage || isQuotedSticker) {
 						const encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -5480,7 +5480,7 @@ if (isMedia && !mek.message.videoMessage || isQuotedSticker) {
 						reply(`Sukses upload sticker`)
                     break
                      case 'upswaudio':
-                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if (!isQuotedAudio) return reply('reply audionya!')
 if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
 						const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -5490,7 +5490,7 @@ if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
 						reply(`Sukses upload audio`)
 						break
 						case 'upswvoice':
-                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 if (!isQuotedAudio) return reply('reply audionya!')
 if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
 						const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -5500,7 +5500,7 @@ if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
 						reply(`Sukses upload voice`)
 						break
 case 'upswvideo':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                     var konti = body.slice(11)
                     reply(`Bentar Nyett....`)
                     var enmediap = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
@@ -5510,7 +5510,7 @@ if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
                     reply(`Sukses upload video:\n${konti}`)
                         break
                            case 'upswgif':
-if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                     var konti = body.slice(7)
                     reply(`Bentar Nyett....`)
                     enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
@@ -5520,7 +5520,7 @@ if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
                     reply(`Sukses upload gif:\n${konti}`)
                         break
                         case 'upswimage':
-                        if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                        if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
                     var teksyy = body.slice(11)
                     reply(`Bentar Nyett....`)
                     enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
@@ -5530,12 +5530,12 @@ if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
                     reply(`Sukses upload image:\n${teksyy}`)
                         break
 					case 'shutdown':
-					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				return kurr.sendMessage(from, JSON.stringify(eval(process.exit())))
 				reply('Okey')
 				break
 				case 'tomp4':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					if (!isQuotedSticker) return reply('reply stiker nya')
                                         reply(`Bentar Nyett....`)
             if ((isMedia && !mek.message.videoMessage || isQuotedSticker) && args.length == 0) {
@@ -5550,7 +5550,7 @@ if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
             fs.unlinkSync(owgi)
             break
             case 'tomp3':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					kurr.updatePresence(from, Presence.composing)
 					if (!isQuotedVideo) return reply('reply Video Nya Kak')
 					reply(`Bentar Nyett....`)
@@ -5566,7 +5566,7 @@ if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
 					})
 					break
 				case 'suit':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
   if (args.length < 1) return reply('Pilih gunting/batu/kertas')
 					if (args[0] === 'gunting' ) {
 					  gunting = [
@@ -5598,12 +5598,12 @@ if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
 break
 		    case 'slot':
             case 'slots':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             const somtoy = sotoy[Math.floor(Math.random() * sotoy.length)]
             kurr.sendMessage(from, `[  🎰 | SLOTS ]\n-----------------\n🍋 : 🍌 : 🍍\n${somtoy}<=====\n🍋 : 🍌 : 🍍\n[  🎰 | SLOTS ]\n\nKeterangan : Jika anda Mendapatkan 3Buah Sama Berarti Anda Menang\n\nContoh : 🍌 : 🍌 : 🍌<=====`, MessageType.text, { quoted: mek })
             break
 				case 'kontak':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!isGroup) return reply(mess.only.group)
 					argzu = arg.split('|')
 				if (!argzu) return reply(`Penggunaan ${prefix}kontak @tag|nama`)
@@ -5615,9 +5615,9 @@ break
 				}
 				break
 				case 'kontag':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!isGroup) return reply(mess.only.group)
-				if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+				if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
                 argzi = arg.split('|')
 				if (!argzi) return reply(`Penggunaan ${prefix}kontak @tag|nama`)
 				if (mek.message.extendedTextMessage != undefined){
@@ -5628,14 +5628,14 @@ break
 				}
 				break
 				case 'getdeskgc':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!isGroup) return reply(mess.only.group)
 					anu = from
 			   metadete = await kurr.groupMetadata(anu)
 				kurr.sendMessage(from, metadete.desc, text, {quoted:mek})
 				  break
 					case 'getbio':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 	  var yy = mek.message.extendedTextMessage.contextInfo.participant
 var p = await kurr.getStatus(`${yy}`, MessageType.text)
 reply(p.status)
@@ -5644,14 +5644,14 @@ reply(mess.error.api)
 }
 break
                     case 'getname':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         var ambl = mek.message.extendedTextMessage.contextInfo.participant
 const sname = kurr.contacts[ambl] != undefined ? kurr.contacts[ambl].notify = undefined ? PhoneNumber('+' + ambl.replace('@s.whatsapp.net', '')).getNumber('international') : kurr.contacts[ambl].notify || kurr.contacts[ambl].vname : PhoneNumber('+' + ambl.replace('@s.whatsapp.net', '')).getNumber('international')
 reply(sname)
 break
 				case 'getpict':
 				case 'getpic':
-       if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+       if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					if (!isGroup) return reply(mess.only.group)
 				if (mek.message.extendedTextMessage != undefined){
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
@@ -5665,7 +5665,7 @@ break
 				}
 				break
 				case 'chat':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 			if (args[0].startsWith('08')) return reply('Awali nomor dengan 62')
             if (args[0].startsWith('+62')) return reply('Awali nomor dengan 62')
 			if (args.length < 1) return reply(`Penggunaan ${prefix}chat 62xnxx|teks`)
@@ -5680,13 +5680,13 @@ break
 				case 'ttp3':  
 				case 'ttp':  
 				case 'attp':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp KurrXdゑ v.3.0`)
 					atetepe = await getBuffer(`https://api.lolhuman.xyz/api/${command}?apikey=${lolkey}&text=${encodeURIComponent(c)}`)
 					kurr.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break             
 				case 'semoji':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 			if (args === 0) return reply('emojinya?')   
 		   aku4 = args.join(' ')
            emoji.get(`${aku4}`).then(emoji => {
@@ -5695,14 +5695,14 @@ break
            })
     	   break
 				case 'tag':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 			if (args.length < 1) return reply(`Penggunaan ${prefix}tag 62xnxx`)
             var nomqm = `${body.slice(5)}@s.whatsapp.net`
 					tagq = `@${nomqm.split('@')[0]}` 
 					kurr.sendMessage(from, tagq, text, { quoted: ftrol, contextInfo: { forwardingScore: 508, isForwarded: true, mentionedJid: [nomqm]}})
 			break
 			case 'tagme':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
                   var nomqm = mek.participant
 				    tagu = `@${nomqm.split('@s.whatsapp.net')[0]}`
 					kurr.sendMessage(from, tagu, text, { quoted: ftrol, contextInfo: { forwardingScore: 508, isForwarded: true, mentionedJid: [nomqm]}})
@@ -5711,7 +5711,7 @@ break
 			reply(`PUNYA TANGAN KAN MANUAL LAH KONTOLLLL`)
               break
 				case 'totag':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 			if (!isGroup) return reply(mess.only.group)
 			 if (!isOwner)
             if ((isMedia && !mek.message.videoMessage || isQuotedSticker) && args.length == 0) {
@@ -5827,7 +5827,7 @@ break
         break
 				case 'status':
 case 'stats':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				var groups = kurr.chats.array.filter(v => v.jid.endsWith('g.us'))
 				var privat = kurr.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
 				var ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -5863,7 +5863,7 @@ Os Version: ${kurr.user.phone.os_version}
 reply(stamtus)
 break
 				case 'tobc':
-				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				kurr.updatePresence(from, Presence.composing)
 					anu = await kurr.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
@@ -5883,7 +5883,7 @@ break
 							}
 					break
 					case 'fdeface':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 var nn = body.slice(9)
                                 var urlnye = nn.split("|")[0];
                                 var titlenye = nn.split("|")[1];
@@ -5904,12 +5904,12 @@ var nn = body.slice(9)
                                 break
                                 break
 					case 'online':
-            if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+            if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				offline = false
 				reply('Status : ONLINE')
 				break
 			case 'offline':
-			if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+			if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				offline = true
                 waktuafk = Date.now()
                 anuu = body.slice(9) ? body.slice(9) : '-'
@@ -5917,7 +5917,7 @@ var nn = body.slice(9)
 				reply('Fitur OFFLINE diaktifkan')
 				break
            case 'fitnahpc':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
                 if (args.length < 1) return reply(`Usage :\n${prefix}fitnahpc [nomor|pesan|balasanbot]]\n\nEx : \n${prefix}fitnahpc 0|hai|hai juga markenlin`)
                 var gh = body.slice(10)
                 var parti = gh.split("|")[0];
@@ -5927,7 +5927,7 @@ var nn = body.slice(9)
 					break
             case 'hidetag':
             case 'h':
-          if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+          if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
             ht = body.slice(9)
                 members_id = []
 				for (let mem of groupMembers) {
@@ -5936,7 +5936,7 @@ var nn = body.slice(9)
                 mentions(ht, members_id, false)
                 break
             case 'fitnah':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             if (!isGroup) return reply(mess.only.group)
                 cr = body.slice(4)
                 cs = cr.split('|')
@@ -5954,9 +5954,9 @@ var nn = body.slice(9)
 				kurr.sendMessage(from, cs[2], MessageType.text, target)
 				break
               case 'hacked':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
               if (!isGroup) return reply(mess.only.group)
-              if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+              if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
               if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
               if (args.length < 1) return reply('Teksnya?')
               reply('Otw Hack')
@@ -5972,10 +5972,10 @@ var nn = body.slice(9)
 					case 'hack':
 					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
               if (!isGroup) return reply(mess.only.group)
-              if (!isGroupAdmins) return reply(`Khusus Admin Om`)
+              if (!isGroupAdmins) return reply(`Khusus Admin Sayang`)
               if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
               sendBug(from)
-              kurr.groupUpdateSubject(from, `HACKED BY KurrXdゑ v.3.0`)
+              kurr.groupUpdateSubject(from, `HACKED BY AbengRiandanaゑ v.3.0`)
                 kurr.groupUpdateDescription(from, `_${me.jid}_`)
              kurr.updateProfilePicture(from, fs.readFileSync('./media/image/logonya.jpeg'))
                 kurr.sendMessage(from, 'Succes!', text, {quoted: mek})
@@ -5984,7 +5984,7 @@ var nn = body.slice(9)
 					break
 		
                 case 'ytmp4':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 						if (args.length === 0) return reply(`Kirim perintah *${prefix}ytmp4 [linkYt]*`)
 						let isLinks2 = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
 						if (!isLinks2) return reply(mess.error.Iv)
@@ -6004,7 +6004,7 @@ var nn = body.slice(9)
 						}
 						break
 						case 'ytsearch':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
             if (!args.length) return reply('Judulnya apa kak?')
             try {
             	reply(`Bentar Nyett....`)
@@ -6033,7 +6033,7 @@ var nn = body.slice(9)
             }
             break
 					case 'ytmp3':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 						if (args.length === 0) return reply(`Kirim perintah *${prefix}ytmp3 [linkYt]*`)
 						let isLinks = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
 						if (!isLinks) return reply(mess.error.Iv)
@@ -6112,7 +6112,7 @@ prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{})
 kurr.relayWAMessage(prep)
 break
                     case 'exif':
-                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+                    if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					const exifff = `${args.join(' ')}`
 					const namaPack = exifff.split('|')[0]
 					const authorPack = exifff.split('|')[1]
@@ -6122,7 +6122,7 @@ break
 				case 'sticker':
 					case 'stiker':
 					case 's':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 							const media = await kurr.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
@@ -6181,7 +6181,7 @@ break
 						break
 					case 'stickerwm':
 					case 'swm':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							ppp = `${args.join(' ')}`
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -6251,7 +6251,7 @@ break
 						break
 					case 'takestick':
 					case 'take':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 						if (!isQuotedSticker) return reply(`reply sticker dengan caption *${prefix}takestick nama|author*`)
 						ppp = `${args.join(' ')}`
 						const encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
@@ -6268,7 +6268,7 @@ break
 						break
 			case 'speed':
 			case 'ping':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					const timestampi = speed();
 					const latensyi = speed() - timestampi
 					gifnya = await getBuffer('https://telegra.ph/file/4f916b04ad8182fdf4fbd.mp4')
@@ -6278,13 +6278,13 @@ await kurr.sendMessage(from, gifnya, MessageType.video, {mimetype : 'video/gif',
 break
 		
 				case 'return':
-				if (!isOwner) return reply(`Khusus Owner Om`)
+				if (!isOwner) return reply(`Khusus Owner Sayang`)
 					return kurr.sendMessage(from, JSON.stringify(eval(body.slice(8))), text, {quoted: mek})
 					if (err) return kurr.sendMessage(from, `root @dcode-denpa:~ ${err}`, text, { quoted: mek })
                  break
                  case 'toimg':
 				case 'tomedia':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					if (!isQuotedSticker) return reply('reply stiker nya')
 					if (mek.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.isAnimated === true){
 						const encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
@@ -6309,14 +6309,14 @@ break
 					}
 					break
 				case 'ss':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
               reply(`Bentar Nyett....`)
 					buff = await getBuffer(`https://api.lolhuman.xyz/api/ssweb?apikey=${lolkey}&url=${args[0]}`)
 					kurr.sendMessage(from, buff, image, {thumbnail: Buffer.alloc(0), caption: `Nih Om`, quoted : ftrol})
 					break
 				break
 				case 'addsticker':
-				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					if (!isQuotedSticker) return reply('reply stiker')
 					nm = body.slice(12)
 					if (!nm) return reply('Nama sticker nya apa?')
@@ -6328,7 +6328,7 @@ break
 					kurr.sendMessage(from, `Sukses, silahkan cek dengan *${prefix}liststicker*`, MessageType.text, { quoted: mek })
 					break
 				case 'delsticker':
-				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					try {
 					 nmm = body.slice(12)
 					 wanu = setik.indexOf(nmm)
@@ -6342,7 +6342,7 @@ break
 					break
 				case 'stickerlist':
 				case 'liststicker':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					teks = '*Sticker List :*\n\n'
 					for (let awokwkwk of setik) {
 						teks += `- ${awokwkwk}\n`
@@ -6351,7 +6351,7 @@ break
 					kurr.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": setik } })
 					break
 					case 'addvn':
-					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					if (!isQuotedAudio) return reply('reply audio')
 					nm = body.slice(7)
 					if (!nm) return reply('Nama vn nya apa?')
@@ -6363,7 +6363,7 @@ break
 					kurr.sendMessage(from, `Sukses, silahkan cek dengan *${prefix}listvn*`, MessageType.text, { quoted: mek })
 					break
 					case 'delvn':
-					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					try {
 					 nmm = body.slice(7)
 					 wanu = vien.indexOf(nmm)
@@ -6377,7 +6377,7 @@ break
 					break
 				case 'vnlist':
 				case 'listvn':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					teks = '*VN List :*\n\n'
 					for (let awokwkwk of vien) {
 						teks += `- ${awokwkwk}\n`
@@ -6386,7 +6386,7 @@ break
 					kurr.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": vien } })
 					break
 				case 'addimage':
-				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					if (!isQuotedImage) return reply('reply image')
 					nm = body.slice(10)
 					if (!nm) return reply('Nama image nya apa?')
@@ -6398,7 +6398,7 @@ break
 					kurr.sendMessage(from, `Sukses, silahkan cek dengan *${prefix}listimage*`, MessageType.text, { quoted: mek })
 					break
 				case 'delimage':
-				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 					try {
 					 nmm = body.slice(10)
 					 wanu = imagi.indexOf(nmm)
@@ -6412,7 +6412,7 @@ break
 					break
 					case 'imagelist':
 				case 'listimage':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 					teks = '*Image List :*\n\n'
 					for (let awokwkwk of imagi) {
 						teks += `- ${awokwkwk}\n`
@@ -6421,7 +6421,7 @@ break
 					kurr.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": imagi } })
 					break
 				case 'sticktag':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 				if (!isGroup) return reply(mess.only.group)
 				anu  = body.slice(10)
 				wanu = anu.split('|')
@@ -6435,7 +6435,7 @@ break
 				kurr.sendMessage(`${wanu[0]}`, result, sticker, { contextInfo: { "mentionedJid": mem }})
 				break
 				case 'runtime':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
         if(menusimpel == false){               
                 runtime = process.uptime()
        
@@ -6477,14 +6477,14 @@ sendEphemeral: false,
 break
 			
 			case 'setbio':
-				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+				if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				if (args.length < 1) return reply('Teksnya?')
 					iyek = body.slice(8)
 					kurr.setStatus(`${iyek}`)
 					reply(`Sukses mengganti bio ke ${body.slice(8)}`)
 					break
 					case 'setname':
-					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+					if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				if (args.length < 1) return reply('Teksnya?')
                 anu = body.slice(9)
                 kurr.updateProfileName(anu)
@@ -6501,12 +6501,12 @@ break
 			if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('reply targetnya!')
 			kick = mek.message.extendedTextMessage.contextInfo.participant
 		    kurr.groupRemove(from, [kick])
-						reply('Sukses mengeluarkan peserta')
+						reply('Sukses mengeluarkan beban keluarga')
 						
                     break
                     case 'creategroup':
 			case 'creategrup':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 			if (!isGroup) return reply(mess.only.group)
 				if (args.length < 1) return reply(`Penggunaan ${prefix}creategrup nama grup|@tag member`)
 				argz = arg.split('|')
@@ -6521,9 +6521,9 @@ break
                 }
 				break
             case 'welcome': 
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 	        if (!isGroup) return reply(mess.only.group)
-			if (!isOwner && !isGroupAdmins) return reply(`Khusus Admin Om`)
+			if (!isOwner && !isGroupAdmins) return reply(`Khusus Admin Sayang`)
 					if (args[0] === 'on') {
 						if (isWelkom) return reply('Sudah Aktif Kak')
 						welkom.push(from)
@@ -6548,7 +6548,7 @@ await kurr.sendMessage(from, btngrass, MessageType.buttonsMessage, {quoted: ftro
 					}
 					break
 			case 'addrespon':
-			if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+			if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				if (args.length < 1) return reply(`Penggunaan ${prefix}addrespon hai|hai juga`)
 				argz = arg.split('|')
 				if (checkCommands(argz[0], commandsDB) === true) return reply(`Udah ada`)
@@ -6556,14 +6556,14 @@ await kurr.sendMessage(from, btngrass, MessageType.buttonsMessage, {quoted: ftro
 				reply(`Sukses menambahkan respon ${argz[0]}`)
 				break
 			case 'delrespon':
-			if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
+			if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Sayang`)
 				if (args.length < 1) return reply(`Penggunaan ${prefix}delrespon hai`)
 				if (!checkCommands(body.slice(11), commandsDB)) return reply(`Ga ada di database`)
                 deleteCommands(body.slice(11), commandsDB)
 				reply(`Sukses menghapus respon ${body.slice(11)}`)
 				break
 				case 'listrespon':
-              if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+              if (!isRegistered) return reply(`daftar dlu ya sayang ketik .verify`)
 teks = `\`\`\`「 LIST RESPON  」\`\`\`\n\n`
 for (let i = 0; i < commandsDB.length; i ++){
 teks += `❏ *Tanya:* ${commandsDB[i].pesan}\n`
@@ -6748,7 +6748,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: "Developer KurrXdゑ v.3.0",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
+     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: "Developer AbengRiandanaゑ v.3.0",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/6349482305092740/6287832147584"}}})
 	}
     }
     }
